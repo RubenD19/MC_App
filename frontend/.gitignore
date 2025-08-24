@@ -1,0 +1,17 @@
+# Files generated as a by-product of the project
+expo-env.d.ts
+node_modules/
+.expo/
+_vscode/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Contains confidential code 
+constants/private.js

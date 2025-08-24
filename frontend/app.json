@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "maple-clinic",
+    "slug": "maple-clinic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/splash.png"
+    },
+    "scheme": "mapleclinic",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rubendev19.mapleclinic"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.rubendev19.mapleclinic"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "resizeMode": "cover"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Poppins-Regular.otf",
+            "./assets/fonts/Poppins-Bold.otf",
+            "./assets/fonts/WorkSans-Regular.ttf",
+            "./assets/fonts/WorkSans-Bold.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
